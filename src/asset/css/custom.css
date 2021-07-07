@@ -18,6 +18,7 @@
     margin-top: 12rem;
 }
 
+/*For Title section*/
 .topTitle{
     font-family: 'Montserreat', sans-serif;
     font-weight: 700;
@@ -32,6 +33,7 @@
     font-size: 22px;
 }
 
+/*For Service section*/
 .serviceCard{
     margin: 5px 5px 5px 5px;
     height: 22rem;
@@ -65,4 +67,27 @@
     font-size: 14px;
     font-weight: 400;
     color: #7F7E7E;
+}
+
+/*For navigation section*/
+.navTitle{
+    font-family: 'Montserreat', sans-serif;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll{
+    font-family: 'Montserreat', sans-serif;
+    color:#0073E6!important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navBackground{
+    background-color: rgba(00, 00, 00, 0.1) !important;
+}
+
+.navBackgroundScroll{
+    background-color: #ffffff !important;
 }
