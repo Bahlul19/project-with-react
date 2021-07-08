@@ -9,6 +9,7 @@ class Services extends Component{
         return(
             <Fragment>
                 <Container className="text-center">
+                    
                 <h1 className="serviceMainTitle">MY SERVICES</h1>
                     <Row>
                        
@@ -18,7 +19,6 @@ class Services extends Component{
                             <h2 className="serviceName">Web Development</h2>
                             <p className="serviceDescription">I design and develop static and dynamic web sites as per your requirements as we believe, “web is world’s next home”.</p>
                         </div>
-
                         </Col>
 
                         <Col lg={4} md={6} sm={12}>
@@ -35,11 +35,9 @@ class Services extends Component{
                             <h2 className="serviceName">Graphices Design</h2>
                             <p className="serviceDescription">I desing modern user interface and other graphical components for your business and instiution.</p>
                         </div>
-
                         </Col>
                         
                     </Row>   
-
 
                 </Container>
             </Fragment>
