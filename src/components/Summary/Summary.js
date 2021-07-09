@@ -1,7 +1,9 @@
 import React, {Component, Fragment} from 'react';
+import CountUp from 'react-countup';
 import {Container, Row, Col, Button, Card} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCheckCircle} from '@fortawesome/free-solid-svg-icons';
+
 
 class Summary extends Component{
 
@@ -23,7 +25,20 @@ class Summary extends Component{
                                     <Row className="countSection">
 
                                     <Col>
-                                        <h1 className="countNumber">100</h1>
+                                        <h1 className="countNumber">
+
+                                        <CountUp start={0} end={100}>
+
+                                        {({ countUpRef, start }) => (
+                                            <div>
+                                            <span ref={countUpRef} />
+                                            <button onClick={start}>Start</button>
+                                            </div>
+                                        )}
+                                        
+                                        </CountUp>
+
+                                        </h1>
                                         <h4 className="countTitle">Total Project</h4>
                                         <hr className="bg-white w-25 countTitle"/>
                                     </Col>
