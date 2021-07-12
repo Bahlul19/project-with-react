@@ -10,14 +10,18 @@ import Analysis from './components/Analysis/Analysis';
 
 import Summary from './components/Summary/Summary';
 
+import RecentProjects from './components/RecentProject/RecentProjects';
+
 function App() {
   return (
     <div>
+      
       <TopNavigation />
       <TopBanner />
       <Services />
       <Analysis />
       <Summary />
+      <RecentProjects />
       
     </div>
 
