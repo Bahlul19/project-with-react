@@ -1,5 +1,8 @@
 import React, {Component, Fragment} from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import blackPhone from '../../asset/image/black11.jpg';
+import whitePhone from '../../asset/image/white11.jpg';
+import redPhone from '../../asset/image/red11.jpg';
 
 class RecentProjects extends Component{
     render(){
@@ -12,16 +15,16 @@ class RecentProjects extends Component{
                     <Row>
 
                         <Col lg={4} md={6} sm={12}>
-                        <Card style={{ width: '18rem' }}>
-
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card className="projectCard">
+                        
+                        <img src={blackPhone} />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="projectCardTitle">Card Title</Card.Title>
+                            <Card.Text className="projectCardDescription">
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Details</Button>
                         </Card.Body>
                         </Card>
 
@@ -29,15 +32,15 @@ class RecentProjects extends Component{
 
                         <Col lg={4} md={6} sm={12}>
 
-                        <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card className="projectCard">
+                        <img src={whitePhone} />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="projectCardTitle">Card Title</Card.Title>
+                            <Card.Text className="projectCardDescription">
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Details</Button>
                         </Card.Body>
                         </Card>
 
@@ -45,15 +48,15 @@ class RecentProjects extends Component{
 
                         <Col lg={4} md={6} sm={12}>
 
-                        <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card className="projectCard">
+                        <img src={redPhone} />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="projectCardTitle">Card Title</Card.Title>
+                            <Card.Text className="projectCardDescription">
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Details</Button>
                         </Card.Body>
                         </Card>
 
