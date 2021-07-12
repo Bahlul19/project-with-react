@@ -16,7 +16,6 @@ class RecentProjects extends Component{
 
                         <Col lg={4} md={6} sm={12}>
                         <Card className="projectCard">
-                        
                         <img src={blackPhone} />
                         <Card.Body>
                             <Card.Title className="projectCardTitle">Card Title</Card.Title>
