@@ -247,3 +247,28 @@
     text-decoration: none;
     color: #0073E6!important;
 }
+
+.videoCard{
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+
+.playButton{
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.videoTitle{
+    font-family: 'Montserreat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0073E6!important;
+}
+
+.videoDescription{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
