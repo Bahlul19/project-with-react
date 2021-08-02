@@ -14,6 +14,7 @@ class TopNavigation extends Component {
             //navbarTitle is a property
             navbarTitle : "navTitle",
             navbarLogo : [whiteLogo],
+            navVariant: "dark",
             navbarBackground : "navBackground",
             navbarItem : "navItem"
         }
@@ -22,11 +23,11 @@ class TopNavigation extends Component {
     onScroll = () => {
         if(window.scrollY > 100)
         {
-            this.setState({navbarTitle : 'navTitleScroll', navbarLogo:[blueLogo], navbarBackground:'navBackgroundScroll', navbarItem: 'navItemScroll'})
+            this.setState({navVariant:'light', navbarTitle : 'navTitleScroll', navbarLogo:[blueLogo], navbarBackground:'navBackgroundScroll', navbarItem: 'navItemScroll'})
         }
         else if(window.scrollY < 100)
         {
-            this.setState({navbarTitle: 'navTitle', navbarLogo:[whiteLogo], navbarBackground:'navBackground', navbarItem: 'navItem'})
+            this.setState({navVariant:'light', navbarTitle: 'navTitle', navbarLogo:[whiteLogo], navbarBackground:'navBackground', navbarItem: 'navItem'})
         }
     }
 
@@ -38,7 +39,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.navbarBackground} fixed="top" collapseOnSelect expand="lg" variant="dark">
+                <Navbar variant={this.state.navVariant} className={this.state.navbarBackground} fixed="top" collapseOnSelect expand="lg" >
                     <Navbar.Brand href="#home" className={this.state.navbarTitle}><img src={this.state.navbarLogo} /> Bahlul Siddiquee</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

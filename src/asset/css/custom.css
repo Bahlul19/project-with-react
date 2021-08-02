@@ -11,7 +11,7 @@
     position: absolute;
     min-height: 500px;
     width: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(43,43,43,0.7);
 }
 
 .topContent{
@@ -66,7 +66,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #7F7E7E;
+    color: #2B2B2B;
 }
 
 /*For navigation section*/
@@ -113,13 +113,13 @@
     text-decoration: none;
     font-family: 'Montserreat', sans-serif;
     font-weight: 400;
-    color: #000000 !important;
+    color: #2B2B2B !important;
     font-size: 16px;
 }
 
 .desCription{
     font-weight: 400;
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
@@ -137,7 +137,7 @@
     position: absolute;
     min-height: 350px;
     width: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(43,43,43,0.7);
 }
 
 .summarySection{
@@ -165,14 +165,14 @@
 }
 
 .cardTitle{
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-weight: 600;
 }
 
 .cardSubTitle{
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Montserreat', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -187,6 +187,7 @@
     margin-top: 14%;
     padding: 10px 10px 10px 10px;
     border-radius: 2px;
+    margin-bottom: 8%;
 }
 
 .projectCard{
@@ -297,7 +298,7 @@
 .socialLink:hover{
     text-decoration: none;
     color: #0073E6 !important;
-    color: #000000;
+    color:#2B2B2B;
 }
 
 .footerLink{
@@ -305,7 +306,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #7F7E7E;
+    color: #2B2B2B;
 }
 
 .footerLink:hover{
@@ -325,7 +326,7 @@
 .copyRightSection:hover{
     padding: 20px 20px 20px 20px;
     background-color: #0073E6;
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Montserreat', sans-serif;
     font-weight: 400;
     font-size: 14px;

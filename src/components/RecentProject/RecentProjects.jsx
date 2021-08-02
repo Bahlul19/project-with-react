@@ -14,7 +14,7 @@ class RecentProjects extends Component{
 
                     <Row>
 
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} className="p-2">
                         <Card className="projectCard">
                         <img src={blackPhone} />
                         <Card.Body>
@@ -29,7 +29,7 @@ class RecentProjects extends Component{
 
                         </Col>
 
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} className="p-2">
 
                         <Card className="projectCard">
                         <img src={whitePhone} />
@@ -45,7 +45,7 @@ class RecentProjects extends Component{
 
                         </Col>
 
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} className="p-2">
 
                         <Card className="projectCard">
                         <img src={redPhone} />
