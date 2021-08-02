@@ -1,22 +1,24 @@
 import React from 'react';
 
-import TopBanner from "./components/TopBanner/TopBanner";
+import TopBanner from "./components/TopBanner/TopBanner.jsx";
 
-import Services from './components/Services/Services';
+import Services from './components/Services/Services.jsx';
 
-import TopNavigation from './components/TopNavigation/TopNavigation';
+import TopNavigation from './components/TopNavigation/TopNavigation.jsx';
 
-import Analysis from './components/Analysis/Analysis';
+import Analysis from './components/Analysis/Analysis.jsx';
 
-import Summary from './components/Summary/Summary';
+import Summary from './components/Summary/Summary.jsx';
 
-import RecentProjects from './components/RecentProject/RecentProjects';
+import RecentProjects from './components/RecentProject/RecentProjects.jsx';
 
-import Courses from './components/Courses/Courses';
+import Courses from './components/Courses/Courses.jsx';
 
-import VideoComponent from './components/Video/VideoComponent';
+import VideoComponent from './components/Video/VideoComponent.jsx';
 
-import ClientReview from './components/ClientReview/ClientReview';
+import ClientReview from './components/ClientReview/ClientReview.jsx';
+
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
       <Courses />
       <VideoComponent />
       <ClientReview />
+      <Footer />
       
     </div>
 
