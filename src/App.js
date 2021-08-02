@@ -16,6 +16,8 @@ import Courses from './components/Courses/Courses';
 
 import VideoComponent from './components/Video/VideoComponent';
 
+import ClientReview from './components/ClientReview/ClientReview';
+
 function App() {
   return (
     <div>
@@ -28,6 +30,7 @@ function App() {
       <RecentProjects />
       <Courses />
       <VideoComponent />
+      <ClientReview />
       
     </div>
 
