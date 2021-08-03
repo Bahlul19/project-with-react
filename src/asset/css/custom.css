@@ -331,3 +331,30 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+.topFixedPage{
+    background-image: url("../image/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverlay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(43,43,43,0.7);
+}
+
+.topPageContent{
+    margin-top: 8rem;
+}
+
+.pageTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 28px;
+}
