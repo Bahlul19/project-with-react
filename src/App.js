@@ -3,7 +3,8 @@ import React from 'react';
 // import PageTop from './components/PageTop/PageTop.jsx';
 // import AboutDescription from './components/AboutDescription/AboutDescription.jsx';
 
-import AboutPage from './pages/AboutPage';
+// import AboutPage from './pages/AboutPage';
+import PortfolioPage from './pages/PortfolioPage';
 
 // import HomePage from "./pages/HomePage.jsx";
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <div>
 
-     <AboutPage />
+     <PortfolioPage />
       
     </div>
 
