@@ -11,7 +11,7 @@ class ServicesPage extends Component{
         return(
             <Fragment>
 
-            <TopNavigation />
+            <TopNavigation title="Services" />
 
             <PageTop pagetitle ="Services" />
 

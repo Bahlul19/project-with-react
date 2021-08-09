@@ -10,7 +10,7 @@ class ContactUsSectionPage extends Component{
         return(
             <Fragment>
 
-            <TopNavigation />
+            <TopNavigation title="Contact"/>
 
             <PageTop pagetitle ="Contact Us" />
 

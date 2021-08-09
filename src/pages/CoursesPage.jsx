@@ -10,7 +10,7 @@ class CoursesPage extends Component{
 
             <Fragment>
                 
-                <TopNavigation />
+                <TopNavigation title="Courses" />
 
                 <PageTop pagetitle ="All Courses"/>
                 {/* sending a props to the specific page */}

@@ -10,7 +10,7 @@ class AboutPage extends Component{
         return(
             <Fragment>
                 
-                <TopNavigation />
+                <TopNavigation title="About" />
 
                 <PageTop pagetitle ="About Me"/>
                 {/* sending a props to the specific page */}

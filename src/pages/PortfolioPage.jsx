@@ -10,7 +10,7 @@ class PortfolioPage extends Component{
         return(
             <Fragment>
 
-            <TopNavigation />
+            <TopNavigation title="Portfolio" />
 
             <PageTop pagetitle ="Portfolio"/>
 

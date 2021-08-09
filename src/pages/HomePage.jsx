@@ -26,7 +26,7 @@ class HomePage extends Component{
             return (
                 <div>
             
-                  <TopNavigation />
+                  <TopNavigation title="Home"/>
                   <TopBanner />
                   <Services />
                   <Analysis />
