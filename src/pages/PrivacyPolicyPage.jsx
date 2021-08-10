@@ -1,21 +1,21 @@
 import React, {Component, Fragment} from 'react';
 import PageTop from '../components/PageTop/PageTop';
 import TopNavigation from '../components/TopNavigation/TopNavigation';
-import RefundPolicy from '../components/RefundPolicy/RefundPolicy';
+import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';
 import Footer from '../components/Footer/Footer';
 
-class RefundPolicyPage extends Component{
+class PrivacyPolicyPage extends Component{
     
     render(){
         return(
 
             <Fragment>
 
-            <TopNavigation title="Refund Policy" />
+            <TopNavigation title="Privacy Policy" />
 
-            <PageTop pagetitle ="Refund Policy"/>
+            <PageTop pagetitle ="Privacy Policy" />
 
-            <RefundPolicy />
+            <PrivacyPolicy />
 
             <Footer />
 
@@ -24,4 +24,4 @@ class RefundPolicyPage extends Component{
     }
 }
 
-export default RefundPolicyPage;
+export default PrivacyPolicyPage;

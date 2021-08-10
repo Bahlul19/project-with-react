@@ -8,6 +8,7 @@ import ContactUsSectionPage from '../pages/ContactUsSectionPage';
 import AboutPage from '../pages/AboutPage';
 import RefundPolicyPage from '../pages/RefundPage';
 import TermsAndConditionPage from '../pages/TermsAndConditionPage';
+import PrivacyPolicyPage from '../pages/PrivacyPolicyPage';
 
 class AppRoute extends Component{
     render(){
@@ -24,6 +25,7 @@ class AppRoute extends Component{
                     <Route exact path="/about" component={AboutPage}/>
                     <Route exact path="/refund-policy" component={RefundPolicyPage}/>
                     <Route exact path="/terms-and-condition" component={TermsAndConditionPage}/>
+                    <Route exact path="/privacy-policy" component={PrivacyPolicyPage}/>
 
                 </Switch>
 
