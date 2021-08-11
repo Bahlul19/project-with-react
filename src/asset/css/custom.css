@@ -374,3 +374,28 @@
     color: #ffffff !important;
     text-decoration: none !important;
 }
+
+.topPageContentCourse{
+    margin-top: 5rem;
+}
+
+.courseFullTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.courseSubTitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Raleway';
+}
+
+.courseDescriptionNew{
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Raleway';
+}

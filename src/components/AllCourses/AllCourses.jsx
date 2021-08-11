@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import ourImages from '../../asset/image/image-course.jpg';
+import {Link} from 'react-router-dom';
 
 class AllCourses extends Component{
     render(){
@@ -17,7 +18,7 @@ class AllCourses extends Component{
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
                                         <p className="text-justify courseDescription">I build native and cross platfrom mobile app for your business app for your business</p>
-                                        <a className="courseDetails float-left" href="#">Details</a>
+                                        <Button variant="primary"><Link className="link-style" to="/course-details">Details</Link></Button>
                                     </Col>
                                 </Row>
                             </Col>
@@ -29,7 +30,7 @@ class AllCourses extends Component{
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
                                         <p className="text-justify courseDescription" >I build native and cross platfrom mobile app for your business app for your business</p>
-                                        <a  className="courseDetails float-left" href="#">Details</a>
+                                        <Button variant="primary"><Link className="link-style" to="/course-details">Details</Link></Button>
                                     </Col>
                                 </Row>
                             </Col>
@@ -42,7 +43,7 @@ class AllCourses extends Component{
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
                                         <p className="text-justify courseDescription" >I build native and cross platfrom mobile app for your business app for your business</p>
-                                        <a  className="courseDetails float-left" href="#">Details</a>
+                                        <Button variant="primary"><Link className="link-style" to="/course-details">Details</Link></Button>
                                     </Col>
                                 </Row>
                             </Col>
@@ -54,7 +55,7 @@ class AllCourses extends Component{
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
                                         <p className="text-justify courseDescription" >I build native and cross platfrom mobile app for your business app for your business</p>
-                                        <a  className="courseDetails float-left" href="#">Details</a>
+                                        <Button variant="primary"><Link className="link-style" to="/course-details">Details</Link></Button>
                                     </Col>
                                 </Row>
                             </Col>
