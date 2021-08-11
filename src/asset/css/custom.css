@@ -364,3 +364,13 @@
     border-color: #0073E6 !important;
     box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
 }
+
+.link-style{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.link-style:hover{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
