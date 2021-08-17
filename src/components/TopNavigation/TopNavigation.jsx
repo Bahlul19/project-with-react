@@ -45,7 +45,7 @@ class TopNavigation extends Component {
                 <title>{this.state.pageTitle}</title>
 
                 <Navbar variant={this.state.navVariant} className={this.state.navbarBackground} fixed="top" collapseOnSelect expand="lg" >
-                    <Navbar.Brand href="#home" className={this.state.navbarTitle}><img src={this.state.navbarLogo} /> Bahlul Siddiquee</Navbar.Brand>
+                    <Navbar.Brand href="#home"> <NavLink className={this.state.navbarTitle} to="/"><img src={this.state.navbarLogo} /> Bahlul Siddiquee</NavLink> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
