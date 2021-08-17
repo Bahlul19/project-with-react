@@ -5,6 +5,10 @@ import RefundPolicy from '../components/RefundPolicy/RefundPolicy';
 import Footer from '../components/Footer/Footer';
 
 class RefundPolicyPage extends Component{
+
+    componentDidMount(){
+        window.scroll(0,0);
+    }
     
     render(){
         return(

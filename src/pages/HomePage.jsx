@@ -22,6 +22,10 @@ import Footer from '../components/Footer/Footer.jsx';
 
 class HomePage extends Component{
 
+  componentDidMount(){
+    window.scroll(0,0);
+}
+
     render(){
             return (
                 <div>

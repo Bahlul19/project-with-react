@@ -5,6 +5,10 @@ import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';
 import Footer from '../components/Footer/Footer';
 
 class PrivacyPolicyPage extends Component{
+
+    componentDidMount(){
+        window.scroll(0,0);
+    }
     
     render(){
         return(
